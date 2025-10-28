@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+  font-family: "Caprasimo", serif;
+  background-color: var(--verde-escuro);
+}
+:root{
+--verde-escuro: #14424b;
+--verde: #2f9364;
+--amarelo: #ff7c37;
+--degrade-btn: linear-gradient(#fe9611, #ff5c00);
+--color-p: #a1a1a1;
+--color-p2: #868585;
+}
+
+.background-verde{
+    background-color: var(--verde-escuro);
+}
+
+.container{
+    /* classe reutilizavel */
+max-width: 1440px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+button{
+font-size: 30px;
+font-family: "Caprasimo", serif;
+}
+.btn-gradient{
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    cursor:pointer;
+    background-image: var(--degrade-btn);
+}
+    /* classe do site */
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0;
+
+    }
+
+    .logo{
+        font-size: 50px;
+        font-family: "Caprasimo", serif;
+        color: white;
+    }
+
+    .ul{
+        display: flex;
+        align-items: center; 
+    }
+    
+    .ul li{
+        margin: 0 25px;
+        font-size: 30px;
+
+    }
+
+    .ul li a{
+        color: white;
+    }
+
+    /*main start*/
+
+    main .container{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-top: 30px;
+    }
+
+    .main-text{
+        width: 70%;
+        color: white;
+        text-align: center;
+        align-items: center;
+    }
+
+    .main-text h1{
+        font-size: 4.5rem;
+        margin-top: 60px;  
+    }
+     .texto-somos{
+        font-size: 30px;
+        margin-bottom: 150px; 
+        color: black; 
+        background-color: white;
+        text-align: center;
+        align-items: center;
+    }
+
+    img{
+        align-items:end;
+        padding-left: 100px;
+        padding-bottom: 500px;
+    }
+
+    
+
+
+    footer{
+        text-align: center;
+        font-family: "Caprasimo", serif;
+        color: black;
+        height: 33px;
+        font-size: 15px;
+        text-align: center;
+        background-color: white;
+    }
+
+@media screen and (max-width: 1020px) {
+    .container{
+        flex-direction: column;
+    }
+
+    
+}
+
+@media screen and (max-width: 1020px) {
+    .footer{
+        flex-direction: column;
+    }
+
+    
+}

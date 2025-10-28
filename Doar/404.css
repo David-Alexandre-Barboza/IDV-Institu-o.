@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background-color: var(--verde-escuro);
+  
+}
+
+:root{
+--verde-escuro: #14424b;
+--verde: #2f9364;
+--amarelo: #ff7c37;
+--degrade-btn: linear-gradient(#fe9611, #ff5c00);
+--color-p: #a1a1a1;
+--color-p2: #868585;
+}
+
+form{
+  color: white;
+}
+
+h1{
+  color: white;
+}
+
+/* Container geral */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+/* Seções */
+section {
+  background: #f9f9f9;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+/* Títulos das seções */
+section h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Formulário */
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Cards de agendamento */
+.card {
+  background: white;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 10px 0;
+  border-left: 5px solid #007bff;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px 0;
+  background: #333;
+  color: white;
+  font-size: 14px;
+}
